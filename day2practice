@@ -1,0 +1,23 @@
+<!doctype>
+<html>
+<head>
+    <title>Day 2 Practice</title>
+    <link rel="stylesheet" href="styles.css">   
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Welcome to Day 2 Practice</h1>
+    <p>This is a simple HTML document to practice basic web development skills.</p>
+    <button id="clickMe">Click Me!</button>
+    
+    <script>
+        document.getElementById('clickMe').addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+    </script>
+<h1>End of Day 2 Practice</h1>
+<footer>
+    <p>&copy; 2025 Day 2 Practice</p>
+</footer>
+</body>
+</html>
